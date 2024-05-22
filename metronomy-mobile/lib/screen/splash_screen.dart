@@ -1,4 +1,4 @@
-import 'package:Metronomy/screen/login_screen.dart';
+import 'package:metronomy/screen/login_screen.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {

@@ -1,15 +1,7 @@
-
-import 'dart:async';
-
-import 'package:Metronomy/l10n/l10n.dart';
-import 'package:Metronomy/providers/dark_mode_provider.dart';
-import 'package:Metronomy/providers/locale_provider.dart';
-import 'package:Metronomy/providers/settings_notifier.dart';
-import 'package:Metronomy/screen/latency_definition_screen.dart';
-import 'package:Metronomy/widgets/bullets_countdown.dart';
-import 'package:audioplayers/audioplayers.dart';
-
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:metronomy/l10n/l10n.dart';
+import 'package:metronomy/providers/dark_mode_provider.dart';
+import 'package:metronomy/providers/locale_provider.dart';
+import 'package:metronomy/providers/settings_notifier.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 import 'package:flutter/material.dart';
